@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a4"
+    tools:context=".MainMenu">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMICO"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:paddingTop="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingBottom="10dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_marginLeft="5dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Home"
+                android:textSize="15sp"
+                android:background="@drawable/button_home"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Books"
+                android:id="@+id/bk1"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:background="@drawable/button_home"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="profile"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:background="@drawable/button_home"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/stream1"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:text="Stream"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:background="@drawable/button_home"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizon"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabView">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgg1"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/a5" />
+
+            <ImageView
+                android:id="@+id/imgg2"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/a6" />
+
+            <ImageView
+                android:id="@+id/imgg3"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/a7" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New From Marvel"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv1"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="149dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:paddingLeft="0dp"/>
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="140dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="132dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="152dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New From Manga"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv2"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/img6"
+                        android:layout_width="152dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"/>
+
+                    <ImageView
+                        android:id="@+id/img7"
+                        android:layout_width="152dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                    <ImageView
+                        android:id="@+id/img8"
+                        android:layout_width="152dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New From Chacha Chowdhary"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv3"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img9"
+                        android:layout_width="158dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/img10"
+                        android:layout_width="122dp"
+                        android:layout_height="185dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                    <ImageView
+                        android:id="@+id/img11"
+                        android:layout_width="132dp"
+                        android:layout_height="195dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:paddingLeft="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New From Naruto"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv4"
+                android:layout_width="match_parent"
+                android:layout_height="209dp"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img12"
+                        android:layout_width="157dp"
+                        android:layout_height="165dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:paddingLeft="30dp"/>
+
+                    <ImageView
+                        android:id="@+id/img13"
+                        android:layout_width="152dp"
+                        android:layout_height="165dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+                    <ImageView
+                        android:id="@+id/img14"
+                        android:layout_width="132dp"
+                        android:layout_height="165dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"/>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

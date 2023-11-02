@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263030176899",
+    "firebase_url": "https://cocomo-90e12-default-rtdb.firebaseio.com",
+    "project_id": "cocomo-90e12",
+    "storage_bucket": "cocomo-90e12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263030176899:android:e66144998b6f2f7f166fb6",
+        "android_client_info": {
+          "package_name": "com.example.comic_book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263030176899-21otn15rbl21cvn6ibl9e2gtbijgapjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc85xfoBp0txwaAOS2JWIZJn8mV5GbhXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263030176899-21otn15rbl21cvn6ibl9e2gtbijgapjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Comic_book"
+        tools:targetApi="31">
+        <activity
+            android:name=".ReadBook4"
+            android:exported="false" />
+        <activity
+            android:name=".ReadBook3"
+            android:exported="false" />
+        <activity
+            android:name=".Naruto1"
+            android:exported="false" />
+        <activity
+            android:name=".Chacha2"
+            android:exported="false" />
+        <activity
+            android:name=".Chacha1"
+            android:exported="false" />
+        <activity
+            android:name=".Manga2"
+            android:exported="false" />
+        <activity
+            android:name=".Manga1"
+            android:exported="false" />
+        <activity
+            android:name=".Marvel3"
+            android:exported="false" />
+        <activity
+            android:name=".AddressSection"
+            android:exported="false" />
+        <activity
+            android:name=".BuyOption"
+            android:exported="true" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".BookView2"
+            android:exported="false" />
+        <activity
+            android:name=".ReadBook2"
+            android:exported="false" />
+        <activity
+            android:name=".ReadBook1"
+            android:exported="false" />
+        <activity
+            android:name=".BookView"
+            android:exported="false" />
+        <activity
+            android:name=".row"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".StreamActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".StreamVideo2"
+            android:exported="false" />
+        <activity
+            android:name=".StreamVideo1"
+            android:exported="false" />
+        <activity
+            android:name=".Streamming"
+            android:exported="false" />
+        <activity
+            android:name=".StreamOptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StreamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplasScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signUp"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".Marvel2"
+            android:exported="true" />
+        <activity
+            android:name=".Marvel1"
+            android:exported="true" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="true">
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_7a5DfigGSlb5Dy" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
